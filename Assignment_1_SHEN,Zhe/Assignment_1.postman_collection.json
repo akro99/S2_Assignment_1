@@ -1,0 +1,227 @@
+{
+	"id": "eb152866-3d0d-b06e-345b-d27dd67f641c",
+	"name": "Assignment_1",
+	"description": "",
+	"order": [
+		"46bc26c3-0c73-5ef4-36da-7ad1c5d7169b",
+		"fe5f402c-c30e-902a-d374-224e704bfd03",
+		"dbf34b74-2866-3bd2-bff3-2b477f59f976",
+		"db62fd8e-9513-e705-32bd-f8668e3ce16e",
+		"27515868-6ecd-0206-6509-1f4843e770d1"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1642930582831,
+	"owner": "19090956",
+	"public": false,
+	"requests": [
+		{
+			"id": "27515868-6ecd-0206-6509-1f4843e770d1",
+			"headers": "Accept: application/json\nContent-Type: application/x-www-form-urlencoded\nx-access-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwiZXhwIjoxNjQyOTUyNzYzfQ.YkzACrIzboqvf3Bu4JDkQgd2Zld_vrUbfA8NpQ-1z1E\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-access-token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwiZXhwIjoxNjQyOTUyNzYzfQ.YkzACrIzboqvf3Bu4JDkQgd2Zld_vrUbfA8NpQ-1z1E",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:9020/userrate/2",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "eb152866-3d0d-b06e-345b-d27dd67f641c",
+			"data": [
+				{
+					"key": "score",
+					"value": "9.8",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "comment",
+					"value": "good",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:9020/userrate/2-PUT",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1642952173356,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "46bc26c3-0c73-5ef4-36da-7ad1c5d7169b",
+			"headers": "Content-Type: application/json\nAuthorization: Basic YWtybzoxMjM0NTY4Nw==\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic YWtybzoxMjM0NTY4Nw==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:9020/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "eb152866-3d0d-b06e-345b-d27dd67f641c",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:9020/login-GET",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1642940777469,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "db62fd8e-9513-e705-32bd-f8668e3ce16e",
+			"headers": "Content-Type: application/json\nx-access-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwiZXhwIjoxNjQyOTUyNzYzfQ.YkzACrIzboqvf3Bu4JDkQgd2Zld_vrUbfA8NpQ-1z1E\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-access-token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwiZXhwIjoxNjQyOTUyNzYzfQ.YkzACrIzboqvf3Bu4JDkQgd2Zld_vrUbfA8NpQ-1z1E",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:9020/userrate/27",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "eb152866-3d0d-b06e-345b-d27dd67f641c",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:9020/userrate/27-DELETE",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1642951256346,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "dbf34b74-2866-3bd2-bff3-2b477f59f976",
+			"headers": "Content-Type: application/json\nx-access-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwiZXhwIjoxNjQyOTQ4NzU5fQ.TAdh2qNWWUgbNp7ylxriQ0I-s7UHOYOTYfPymDEqDUM\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-access-token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwiZXhwIjoxNjQyOTQ4NzU5fQ.TAdh2qNWWUgbNp7ylxriQ0I-s7UHOYOTYfPymDEqDUM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:9020/userrate",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "eb152866-3d0d-b06e-345b-d27dd67f641c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:9020/userrate-POST",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1642947364788,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"product_id\":\"1\",\"user_id\":\"2\",\"score\":\"8.9\",\"comment\":\"很舒服的味道，适合秋冬\"}"
+		},
+		{
+			"id": "fe5f402c-c30e-902a-d374-224e704bfd03",
+			"headers": "Accept: application/json\nContent-Type: application/json\nx-access-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwiZXhwIjoxNjQyOTQ2NDE5fQ.7sGiSmJODTSr9EjNbrsXlQhSVeNV63nNiFMEdGGBeKI\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-access-token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwiZXhwIjoxNjQyOTQ2NDE5fQ.7sGiSmJODTSr9EjNbrsXlQhSVeNV63nNiFMEdGGBeKI",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:9020/userrate",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "eb152866-3d0d-b06e-345b-d27dd67f641c",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:9020/userrate-GET",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1642946464510,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
